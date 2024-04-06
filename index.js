@@ -2,18 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import venom from 'venom-bot';
-import fs from 'fs';
-import util from 'util';
-import { parse } from 'path';
 
-const readFile = util.promisify(fs.readFile);
-
-async function getConfess() {
-    const data = await readFile('./confess.json');
-    return JSON.parse(data);
-}
-
-const confess = await getConfess();
+const confess = []
 
 const app = express();
 
@@ -30,11 +20,6 @@ venom.create({session: "session-nevo"}).then((client) => {
             if (message.from === confess.to){
                 session.sendText(confess.from + '@c.us', message.body);
                 confess.splice(confess.indexOf(confess), 1);
-                fs.writeFile('./confess.json', JSON.stringify(confess), (err) => {
-                    if (err) {
-                        console.log(err);
-                    }
-                });
             }
         });
         if (message.body === 'Hi') {
@@ -67,11 +52,6 @@ venom.create({session: "session-nevo"}).then((client) => {
                 from: number[0],
                 to: toNumber,
                 message: messages
-            });
-            fs.writeFile('./confess.json', JSON.stringify(confess), (err) => {
-                if (err) {
-                    console.log(err);
-                }
             });
         }
     });
