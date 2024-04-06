@@ -5,7 +5,7 @@ import venom from 'venom-bot';
 
 const confess = []
 
-const app = express();
+const app = express()
 
 let session = null;
 
