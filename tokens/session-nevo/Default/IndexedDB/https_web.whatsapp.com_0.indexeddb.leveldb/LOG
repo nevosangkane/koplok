@@ -1,0 +1,25 @@
+2024/04/06-14:49:00.084 1ed2 Reusing MANIFEST /home/nevosangkane/Documents/SEKBID-9/bot-whatsapp-api/tokens/session-nevo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/06-14:49:00.084 1ed2 Recovering log #248
+2024/04/06-14:49:00.097 1ed2 Reusing old log /home/nevosangkane/Documents/SEKBID-9/bot-whatsapp-api/tokens/session-nevo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000248.log 
+2024/04/06-14:49:00.099 1ed2 Delete type=2 #247
+2024/04/06-14:49:02.007 1ed4 Level-0 table #253: started
+2024/04/06-14:49:02.017 1ed4 Level-0 table #253: 247882 bytes OK
+2024/04/06-14:49:02.021 1ed4 Delete type=0 #248
+2024/04/06-14:49:02.021 1ed4 Manual compaction at level-0 from '\x00\\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00]\x00\x00\x00' @ 0 : 0; will stop at '\x00]\x00\x00\x05' @ 189506 : 1
+2024/04/06-14:49:02.021 1ed4 Compacting 1@0 + 1@1 files
+2024/04/06-14:49:02.132 1ed4 Generated table #254@0: 73775 keys, 1549391 bytes
+2024/04/06-14:49:02.132 1ed4 Compacted 1@0 + 1@1 files => 1549391 bytes
+2024/04/06-14:49:02.135 1ed4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/06-14:49:02.135 1ed4 Delete type=2 #253
+2024/04/06-14:49:02.136 1ed2 Manual compaction at level-0 from '\x00]\x00\x00\x05' @ 189506 : 1 .. '\x00]\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/06-14:49:02.146 1ed2 Level-0 table #256: started
+2024/04/06-14:49:02.148 1ed2 Level-0 table #256: 1552 bytes OK
+2024/04/06-14:49:02.152 1ed2 Delete type=2 #250
+2024/04/06-14:49:02.153 1ed2 Delete type=0 #252
+2024/04/06-14:49:02.153 1ed2 Manual compaction at level-0 from '\x00]\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00^\x00\x00\x00' @ 0 : 0; will stop at '\x00]\x00\x00\x05' @ 189581 : 0
+2024/04/06-14:49:02.153 1ed2 Compacting 1@0 + 1@1 files
+2024/04/06-14:49:02.260 1ed2 Generated table #257@0: 73781 keys, 1549858 bytes
+2024/04/06-14:49:02.260 1ed2 Compacted 1@0 + 1@1 files => 1549858 bytes
+2024/04/06-14:49:02.262 1ed2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/06-14:49:02.264 1ed2 Delete type=2 #256
+2024/04/06-14:49:02.264 1ed2 Manual compaction at level-0 from '\x00]\x00\x00\x05' @ 189581 : 0 .. '\x00^\x00\x00\x00' @ 0 : 0; will stop at (end)

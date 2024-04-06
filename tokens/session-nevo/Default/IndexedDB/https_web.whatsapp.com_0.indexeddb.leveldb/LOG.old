@@ -1,0 +1,25 @@
+2024/04/06-14:46:40.531 1d2c Reusing MANIFEST /home/nevosangkane/Documents/SEKBID-9/bot-whatsapp-api/tokens/session-nevo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/06-14:46:40.532 1d2c Recovering log #241
+2024/04/06-14:46:40.537 1d2c Reusing old log /home/nevosangkane/Documents/SEKBID-9/bot-whatsapp-api/tokens/session-nevo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000241.log 
+2024/04/06-14:46:40.537 1d2c Delete type=2 #240
+2024/04/06-14:46:42.532 1d2d Level-0 table #246: started
+2024/04/06-14:46:42.537 1d2d Level-0 table #246: 110133 bytes OK
+2024/04/06-14:46:42.539 1d2d Delete type=0 #241
+2024/04/06-14:46:42.539 1d2c Manual compaction at level-0 from '\x00Z\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at '\x00[\x00\x00\x05' @ 181206 : 1
+2024/04/06-14:46:42.539 1d2c Compacting 1@0 + 1@1 files
+2024/04/06-14:46:42.679 1d2c Generated table #247@0: 72015 keys, 1513190 bytes
+2024/04/06-14:46:42.679 1d2c Compacted 1@0 + 1@1 files => 1513190 bytes
+2024/04/06-14:46:42.681 1d2c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/06-14:46:42.681 1d2c Delete type=2 #246
+2024/04/06-14:46:42.681 1d2d Manual compaction at level-0 from '\x00[\x00\x00\x05' @ 181206 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/06-14:46:42.694 1d2c Level-0 table #249: started
+2024/04/06-14:46:42.695 1d2c Level-0 table #249: 439 bytes OK
+2024/04/06-14:46:42.697 1d2c Delete type=0 #245
+2024/04/06-14:46:42.697 1d2c Delete type=2 #243
+2024/04/06-14:46:42.697 1d2c Manual compaction at level-0 from '\x00[\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\\x00\x00\x00' @ 0 : 0; will stop at '\x00[\x00\x00\x05' @ 181239 : 0
+2024/04/06-14:46:42.698 1d2c Compacting 1@0 + 1@1 files
+2024/04/06-14:46:42.812 1d2c Generated table #250@0: 72013 keys, 1513172 bytes
+2024/04/06-14:46:42.812 1d2c Compacted 1@0 + 1@1 files => 1513172 bytes
+2024/04/06-14:46:42.813 1d2c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/06-14:46:42.814 1d2c Delete type=2 #249
+2024/04/06-14:46:42.814 1d2c Manual compaction at level-0 from '\x00[\x00\x00\x05' @ 181239 : 0 .. '\x00\\x00\x00\x00' @ 0 : 0; will stop at (end)
