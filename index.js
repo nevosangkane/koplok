@@ -15,11 +15,12 @@ venom.create({session: "session-nevo"}).then((client) => {
     let splittedMessage = null;
     session.onMessage(async (message) => {
         console.log(message)
-        confess.forEach((confess) => {
-            console.log(confess.from, confess.message, confess)
-            if (message.from === confess.to){
-                session.sendText(confess.from + '@c.us', message.body);
-                confess.splice(confess.indexOf(confess), 1);
+        if (message.body){
+        confess.forEach((confes) => {
+            console.log(confes.from, confes.message, confes)
+            if (message.from.split("@")[0] === confes.to){
+                session.sendText(confes.from + '@c.us', message.body);
+                confess.splice(confes.indexOf(confes), 1);
             }
         });
         if (message.body === 'Hi') {
@@ -53,6 +54,7 @@ venom.create({session: "session-nevo"}).then((client) => {
                 to: toNumber,
                 message: messages
             });
+            }
         }
     });
 }).catch((error) => {
